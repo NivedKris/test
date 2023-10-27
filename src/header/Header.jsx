@@ -25,9 +25,9 @@ const Header = () => {
     </header>
     <div className="about-section">
         <div className="about-content">
-          <h3>About Dudiligence Report Creator Tool</h3>
+          <h3>About Due Diligence Report Creator Tool</h3>
           <p>
-The Dudiligence Report Creator Tool is an innovative software solution designed to expedite the creation of due diligence reports from pitch decks. By seamlessly integrating with pitch deck materials, it automates the extraction and analysis of critical information, allowing investors and professionals to make informed decisions with efficiency and precision. Dudiligence simplifies the due diligence process, enabling users to focus on what matters most: evaluating and seizing investment opportunities.</p>
+The Due Diligence Report Creator Tool is an innovative software solution designed to expedite the creation of due diligence reports from pitch decks. By seamlessly integrating with pitch deck materials, it automates the extraction and analysis of critical information, allowing investors and professionals to make informed decisions with efficiency and precision. Due Diligence bot simplifies the due diligence process, enabling users to focus on what matters most: evaluating and seizing investment opportunities.</p>
         </div>
         <div className="about-image">
           <img
