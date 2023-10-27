@@ -88,7 +88,7 @@ const Report = () => {
         <button onClick={handlePrint}>Download PDF</button>
       </div>
       <footer className="footer">
-      <p>&copy; 2023 Your Company. All rights reserved.</p>
+      <p>&copy; 2023 DueDilligence Bot. All rights reserved.</p>
        </footer>
     </div>
   );
