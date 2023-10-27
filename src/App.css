@@ -1,0 +1,83 @@
+/* App.css */
+
+.app {
+    text-align: center;
+}
+
+.about-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    /* Increase padding for better spacing */
+   
+}
+
+.about-content {
+    flex: 1;
+    text-align: left;
+    padding: 20px;
+    /* Add padding for spacing and to create a smooth border */
+    border-radius: 10px;
+    /* Apply a smooth border */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    /* Add a subtle shadow for depth */
+}
+
+.about-image {
+    flex: 1;
+    text-align: left;
+}
+
+.about-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    /* Apply a smooth border to the image */
+}
+
+/* Rest of your styles */
+/* App.css */
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.app {
+    background-color: #ffffff;
+    /* Light blue background */
+    color: #333;
+    /* Dark text color */
+}
+/* App.css */
+.about-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.about-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.about-image {
+    flex: 1;
+    padding: 20px;
+}
+/* App.css */
+.about-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}

@@ -1,0 +1,97 @@
+/* DocumentUpload.css */
+
+.document-upload {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    /* Set the desired height */
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0);
+    
+}
+
+.upload-area {
+    text-align: center;
+    padding: 20px;
+    transition: border 0.3s;
+    border: 2px dashed #550f0f;
+    border-radius: 10px;
+}
+
+.selected-file {
+    padding: 20px;
+    background-color:transparent;
+    
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.drag-drop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.custom-file-upload {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #b7caf2;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background 0.3s;
+}
+
+.custom-file-upload:hover {
+    background: #333;
+}
+
+.upload-area.drag-over {
+    border: 2px dashed #4CAF50;
+    background: rgba(76, 175, 80, 0.1);
+}
+
+/* DocumentUpload.css */
+
+.generate-button {
+    background-color: #4CAF50;
+    /* Green background color */
+    color: #fff;
+    /* White text color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    /* Adjust font size as needed */
+    transition: background-color 0.3s;
+}
+
+.generate-button:hover {
+    background-color: #45a049;
+    /* Darker green on hover */
+}
+/* DocumentUpload.css */
+
+
+/* Add this style to vertically center the text */
+.drag-drop p {
+    margin: 0;
+}
+/* DocumentUpload.css */
+
+/* Hide the default file input button */
+input[type="file"] {
+    opacity: 0;
+    position: relative;
+    width: 10px;
+    height: 10px;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+}

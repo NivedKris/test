@@ -1,0 +1,179 @@
+
+.header {
+    display: flex;
+    align-items: center;
+    
+    justify-content: space-between;
+    padding: 10px 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.left-section {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.center-section {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.navbar {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-list li {
+    margin: 0 10px;
+}
+
+
+.right-section {
+    display: flex;
+}
+
+
+
+
+.button {
+    margin-left: 10px;
+    background-color: rgba(169, 169, 169, 0.2);
+    border: none;
+    padding: 10px 16px;
+    /* Increase the padding to make the buttons slightly larger */
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Lexend', sans-serif;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: rgba(169, 169, 169, 0.4);
+}
+
+
+
+.logo {
+    width: 200px;
+    /* Set the desired width */
+    height: 50px;
+    /* Set the desired height */
+}
+
+/* ... (previous styles) ... */
+
+/* Header.css */
+
+/* ... (previous styles) ... */
+
+.nav-list .nav  {
+    text-decoration: none;
+    color: black;
+    font-family: 'Lexend', sans-serif;
+    transition: color 0.3s;
+    /* Smooth transition for the hover effect */
+    position: relative;
+    /* Required for the underline effect */
+}
+
+.nav-list .nav::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    /* Adjust the thickness of the underline as needed */
+    bottom: -5px;
+    /* Distance below the links; adjust as needed */
+    left: 0;
+    background-color: transparent;
+    /* Initially transparent */
+    transition: background-color 0.3s;
+    /* Smooth transition for the underline effect */
+}
+
+.nav-list .nav:hover {
+    color: #333;
+    /* Darker color on hover */
+}
+
+.nav-list .nav:hover::before {
+    background-color: #333;
+    /* Darker color for the underline on hover */
+}
+.about-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    /* Increase padding for better spacing */
+    margin-bottom: 20%;
+   
+}
+
+.about-content {
+    flex: 1;
+    text-align: left;
+    padding: 20px;
+    /* Add padding for spacing and to create a smooth border */
+    border-radius: 10px;
+    /* Apply a smooth border */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    /* Add a subtle shadow for depth */
+    
+}
+
+.about-image {
+    flex: 1;
+    text-align: left;
+}
+
+.about-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    /* Apply a smooth border to the image */
+}
+
+/* Default styles for the navbar */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles for screens smaller than 768px (adjust the breakpoint as needed) */
+@media (max-width: 768px) {
+    .nav-list {
+        display: none;
+        /* Hide the navigation links by default on smaller screens */
+    }
+
+    .menu-icon {
+        /* Style for a responsive menu icon (hamburger icon) */
+        display: block;
+        /* Show the menu icon */
+        cursor: pointer;
+        font-size: 24px;
+        margin-right: 20px;
+        /* Adjust the margin as needed */
+    }
+
+    .nav-list.active {
+        display: flex;
+        /* Show the navigation links when the menu icon is clicked */
+    }
+}

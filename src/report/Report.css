@@ -1,0 +1,81 @@
+/* Report.css */
+
+.report {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Center content horizontally */
+    justify-content: center;
+    /* Center content vertically */
+    height: 100vh;
+    /* Adjust to your needs for vertical centering */
+}
+
+.report-content {
+    text-align: center;
+    /* Center text content */
+}
+
+.memo {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.report-section {
+    margin-bottom: 20px;
+}
+
+.report-section h3 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.report-section p {
+    font-size: 16px;
+}
+
+.report-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.report-section li {
+    margin-bottom: 10px;
+}
+
+.report-section li strong {
+    font-weight: bold;
+}
+
+.download-pdf {
+    margin-top: 20px;
+    /* Adjust the spacing between the report and download button */
+}
+
+.download-pdf button {
+    background-color: #0074cc;
+    /* Adjust to your preferred button color */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.download-pdf button:hover {
+    background-color: #005baa;
+    /* Adjust the button color on hover */
+}
+
+.footer {
+    background-color:transparent;
+    /* Background color for the footer */
+    color:rgba(0, 0, 0, 0.437);
+    /* Text color for copyright information */
+    text-align: center;
+    padding: 10px;
+}

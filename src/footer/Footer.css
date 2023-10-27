@@ -1,0 +1,8 @@
+.footer {
+    background-color: #333;
+    /* Background color for the footer */
+    color: #fff;
+    /* Text color for copyright information */
+    text-align: center;
+    padding: 10px;
+}
