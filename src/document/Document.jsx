@@ -51,7 +51,7 @@ const DocumentUpload = () => {
           
       </div>
       <footer className="footer">
-      <p>&copy; 2023 Due Dilligence Bot. All rights reserved.</p>
+      <p>&copy; 2023 DueDilligence Bot. All rights reserved.</p>
             </footer>
             </>
   );
